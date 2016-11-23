@@ -12,50 +12,59 @@
 <body>
     <div class="container">
 
-        <div class="header">
-            <h2>calculator</h2></div>
+      <div class="header">
+        <h2>CALCULATOR</h2></div>
+
+      <div class="calcbox">
 
         <div class="row">
-            <button id="display1">9898989898</button>
+          <button id="displayCalc" class="eight columns"></button>
         </div>
+
         <div class="row">
-            <button id="display2">equation</button>
+          <button id="displayEquation" class="eight columns"></button>
         </div>
+
         <div class="row">
-            <button id="AC">AC</button>
-            <button id="CE">CE</button>
-            <button id="%">%</button>
-            <button id="X">X</button>
+          <button id="clearAll" class="two columns">AC</button>
+          <button id="clear" class="two columns">CE</button>
+          <button id="divide" class="two columns">%</button>
+          <button id="multiply" class="two columns">X</button>
         </div>
-  <div class="row">
-        <button id="b7"> 7 </button>
-        <button id="b8"> 8 </button>
-        <button id="b9"> 9 </button>
-        <button id="-"> - </button>
+
+        <div class="row">
+          <button id="seven" class="two columns" class="number">7</button>
+          <button id="eight" class="two columns" class="number">8</button>
+          <button id="nine" class="two columns" class="number">9</button>
+          <button id="subtract" class="two columns">-</button>
+        </div>
+
+        <div class="row">
+          <button id="four" class="two columns" class="number">4</button>
+          <button id="five" class="two columns" class="number">5</button>
+          <button id="six" class="two columns" class="number">6</button>
+          <button id="add" class="two columns">+</button>
+        </div>
+
+        <div class="row">
+          <button id="one" class="two columns" class="number">1</button>
+          <button id="two" class="two columns" class="number">2</button>
+          <button id="three" class="two columns" class="number">3</button>
+          <button id="equals" class="two columns">=</button>
+        </div>
+
+        <div class="row">
+          <button id="zero" class="six columns">0</button>
+          <button id="decimal" class="two columns">.</button>
+        </div>
+      </div>
+
     </div>
-
-    <div class="row">
-        <button id="b4">4</button>
-        <button id="b5">5</button>
-        <button id="b6">6</button>
-        <button id="+">+</button>
-    </div>
-    <div class="row">
-        <button id="b1">1</button>
-        <button id="b1">2</button>
-        <button id="b1">3</button>
-        <button id="bequals">=</button>
-    </div>
-
-    <div class="row">
-        <button id="b0">0</button>
-        <button id="bdec">.</button>
-
-    </div>
-
-
-    </div>
-
+    <script
+      src="http://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

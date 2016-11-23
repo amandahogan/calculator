@@ -1,3 +1,11 @@
-#b0{
-  width: 34%;
+.header {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.calcbox {
+  text-align: center;
+  padding-left: 25%;
+  background-color: #F5F5F5;
 }

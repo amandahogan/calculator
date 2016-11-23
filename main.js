@@ -1,6 +1,10 @@
-document.getElementById('b1').addEventListener('click', displayEquation);
+$(document).ready(function() {
 
-var button;
-function displayEquation(){
-  
-},
+  document.getElementsByClass("number").addEventListener('click', displayNumber);
+
+  function displayNumber(){
+      
+  },
+
+
+});
